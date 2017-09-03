@@ -1,3 +1,7 @@
+/**
+ * Created by dave 2017/09/03
+ * webpack 基础配置
+ */
 const path = require('path');
 const fs = require('fs');
 const utils = require('./utils');

@@ -1,3 +1,7 @@
+/**
+ * Created by dave 2017/09/03
+ * webpack 生产配置
+ */
 const path = require('path');
 const utils = require('./utils');
 const webpack = require('webpack');

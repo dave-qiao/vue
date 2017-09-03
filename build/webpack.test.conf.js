@@ -1,3 +1,7 @@
+/**
+ * Created by dave 2017/09/03
+ * webpack 测试配置
+ */
 // This is the webpack config used for unit tests.
 
 var utils = require('./utils')

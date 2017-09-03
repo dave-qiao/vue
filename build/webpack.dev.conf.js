@@ -1,3 +1,7 @@
+/**
+ * Created by dave 2017/09/03
+ * webpack 开发配置
+ */
 const utils = require('./utils');
 const webpack = require('webpack');
 const config = require('../config');
