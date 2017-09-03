@@ -6,13 +6,13 @@
 require('./check-versions')();
 process.env.NODE_ENV = 'production';
 
-import ora from 'ora';      // 终端进度转轮
-import rm from 'rimraf';    // node unix命令 等同于rm -rf
-import path from 'path';    // node path模块 解析路径
-import chalk from 'chalk';  // 改变命令行中字体颜色
-import webpack from 'webpack';  // 打包工具
-import config from '../config';  // 打包工具配置文件
-import webpackConfig from './webpack.prod.conf';  // 打包工具生产环境配置文件
+const ora = require('ora');      // 终端进度转轮
+const rm = require('rimraf');    // node unix命令 等同于rm -rf
+const path = require('path');    // node path模块 解析路径
+const chalk = require('chalk');  // 改变命令行中字体颜色
+const webpack = require('webpack');  // 打包工具
+const config = require('../config'); // 打包工具配置文件
+const webpackConfig = require('./webpack.prod.conf');  // 打包工具生产环境配置文件
 
 const spinner = ora('building for production...'); // 进度提示文字
 spinner.start();
